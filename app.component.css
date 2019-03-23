@@ -1,0 +1,23 @@
+.main_div{
+    height: 30px;
+    margin: 6px;    
+    border: dashed grey;
+    background-color: skyblue;
+    color: red;
+  }
+  .img {
+    width: 5px;
+    height: 5px;
+    bottom: 0;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
